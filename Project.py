@@ -146,7 +146,7 @@ def main():
                         selected_genre = None
                         
                     recommendation = recommender.get_random_recommendation(selected_genre)
-                    print("\n📚 Your Random Book Recommendation:")
+                    print("\n Your Random Book Recommendation:")
                     print("=" * 50)
                     print(f"Title: {recommendation['title']}")
                     print(f"Author(s): {recommendation['authors']}")
